@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "An apple mobile which is nothing like apple",
+    "duration": "12:05",
+    "thumbnail": "https://cdn.dummyjson.com/products-images/1/thumbnail.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Samsung Universe 9",
+    "duration": "10:25",
+    "thumbnail": "https://cdn.dummyjson.com/products-images/2/thumbnail.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Samsung Galaxy Book",
+    "duration": "06:51",
+    "thumbnail": "https://cdn.dummyjson.com/products-images/3/thumbnail.jpg"
+  }
+]
