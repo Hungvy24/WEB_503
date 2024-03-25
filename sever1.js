@@ -4,12 +4,16 @@ import router from "./router/products.js";
 import connectdb from "./Database/connect.js";
 import Authrouter from "./router/auth.js";
 import Bookrouter from "./router/book.js";
+import Postsrouter from "./router/Posts.js";
+import AuthorASM from "./router/AuthASM.js";
 const app = express();
 const port = 3000;
 app.use(express.json());
 app.use('/api', router);
 app.use('/api', Authrouter);
 app.use('/api', Bookrouter);
+app.use('/api', Postsrouter);
+app.use('/api', AuthorASM);
 app.listen(port, async () => {
     await connectdb();
     console.log(`Endpoint http://localhost:${port}/api/products`);
